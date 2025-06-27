@@ -1,2 +1,2 @@
 # Sudoku-Solver
-A Sudoku Solver involving backtracking.
+This is a backtracking Sudoku solver written in Python. It takes a 9x9 Sudoku board with missing values represented by -1 and fills in the board by recursively trying valid guesses. The solver uses classic backtracking: it looks for the next empty cell, tries all digits from 1 to 9, checks if each guess is valid in the current row, column, and 3x3 subgrid, and proceeds recursively. If a guess leads to a dead end, it backtracks and tries the next possibility. This project demonstrates recursion, problem-solving logic, and effective use of helper functions and input validation in Python.
